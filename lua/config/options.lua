@@ -1,5 +1,8 @@
 vim.opt.guicursor = ""
 
+-- Remove tildes after everything
+vim.cmd(":hi NonText guifg=bg")
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
