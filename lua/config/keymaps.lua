@@ -20,4 +20,4 @@ vim.keymap.set("n", "w", "<cmd>w<cr>")
 vim.keymap.set("n", "<leader>u", "<c-u>zz")
 vim.keymap.set("n", "<leader>d", "<c-d>zz")
 
-vim.keymap.set("t", "jj", "<cmd>lua require('harpoon.ui').nav_prev()<cr>")
+vim.keymap.set("t", "jj", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>")
